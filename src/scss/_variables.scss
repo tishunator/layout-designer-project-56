@@ -1,0 +1,30 @@
+@font-face {
+  font-weight: 400;/* Соответствует значению normal */
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+  font-weight: 700;/* Соответствует значению bold */
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  }
+  
+  @font-face {
+  font-weight: 300;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.ttf");
+  }
+  
+$black:#08020D;
+$grey:#E0E0E0;
+$dark-Gray:#CACACA;
+$dark:#3C3B3D;
+$green:#34C176;
+$orange:#F89202;
+$purple:#5328A1;
+$red:#95390C;
+$font-main: 'Roboto', sans-serif;
+$font-main-light: 300;
+$font-main-regular: 400;
+$font-main-bold: 700;
