@@ -8,6 +8,7 @@ body {
   background-color: variables.$black;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 
 }
 
@@ -87,26 +88,76 @@ nav {
 
 .nav-form {
   margin-left: 449px;
+ 
+
 }
 
 .input-group input {
+  
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.3px;
   width: 248px;
   height: 25px;
   border: 0;
   border-radius: 50px;
   background-color: variables.$dark;
   color: #757575;
+  padding-left: 10px;
 
 }
 
-.input-group input::placeholder {
+
+.margin-0{
+  margin: 0;
+}
+.first-section{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.section-description{
+margin-top: 31px;
+}
+.form {
+  max-width: 570px;
+  margin: 0 auto;
+  margin-top: 17px;
+  
+}
+.form-inputs{
+  gap: 24px;
+  
+}
+.form-input{
+ box-sizing: border-box;
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.5rem;
+  border: solid 2px variables.$dark-gray;
+  border-radius: 3px;
+  padding: 0;
   padding-left: 20px;
+  background-color: transparent;
+  color: white;
+}
+.form-inputs input::placeholder {
+  color: white; 
 }
 
 
-
-
+.btn-green{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 13.3px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: variables.$green;
+  width: 570px;
+  text-transform: uppercase;
+  color: white;
+  
+}
 /* Адаптация для мобильных устройств */
 @media (max-width: 414px) {
   h1 {
