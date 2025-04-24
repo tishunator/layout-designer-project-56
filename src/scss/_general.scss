@@ -1,12 +1,38 @@
+@use "variables";
 
 body {
-  font-family: $font-main;
-  font-weight: $font-main-regular;
+  font-family: variables.$font-main;
+  font-weight: variables.$font-main-regular;
   line-height: 1.5;
-  color: #cacaca;
-  background-color: #08020d;
+  color: variables.$dark-gray;
+  background-color: variables.$black;
   margin: 0;
   padding: 0;
+
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.background-img {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
 }
 
 /* Заголовки для десктопа */
@@ -23,6 +49,63 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.title-name {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  text-transform: uppercase;
+  list-style: none;
+  gap: 24px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  font-size: 11px;
+  margin-left: 90px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.nav-form {
+  margin-left: 449px;
+}
+
+.input-group input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 248px;
+  height: 25px;
+  border: 0;
+  border-radius: 50px;
+  background-color: variables.$dark;
+  color: #757575;
+
+}
+
+.input-group input::placeholder {
+  padding-left: 20px;
+}
+
+
+
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 414px) {

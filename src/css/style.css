@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+  font-weight: 400; /* Соответствует значению normal */
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #CACACA;
+  background-color: #08020D;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.background-img {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Заголовки для десктопа */
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.title-name {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  text-transform: uppercase;
+  list-style: none;
+  gap: 24px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  font-size: 11px;
+  margin-left: 90px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.nav-form {
+  margin-left: 449px;
+}
+
+.input-group input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 248px;
+  height: 25px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #3C3B3D;
+  color: #757575;
+}
+
+.input-group input::placeholder {
+  padding-left: 20px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
