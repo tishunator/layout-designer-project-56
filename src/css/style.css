@@ -233,6 +233,9 @@ li a {
 .cards {
   justify-content: center;
   gap: 50px;
+}
+
+#page-news.container {
   padding-left: 20px;
   padding-right: 20px;
 }
