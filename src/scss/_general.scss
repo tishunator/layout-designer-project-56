@@ -214,7 +214,9 @@ margin-top: 31px;
 }
 .cards{
   justify-content: center;
-gap: 46px;
+gap: 50px;
+padding-left: 20px;
+padding-right: 20px;
 }
 .pricing-item{
   box-sizing: border-box;
@@ -233,7 +235,7 @@ p.pricing-value{
   margin: 0;
 }
 .subscription-info{
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .btn a{
   text-decoration: none;
