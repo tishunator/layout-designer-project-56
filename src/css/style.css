@@ -457,8 +457,10 @@ footer {
     padding-top: 247px;
   }
   .container {
+    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    box-sizing: border-box;
   }
   .nav-list.d-flex {
     flex-direction: column;
@@ -496,6 +498,38 @@ footer {
   }
   .btn-green {
     width: 374px;
+  }
+  .cards.d-flex {
+    flex-direction: column;
+  }
+  .news-item {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mobile-app.d-flex {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .img-phone {
+    margin: -17px auto 0 auto;
+  }
+  .mobile-app-content p {
+    margin-top: 15px;
+  }
+  .mobile-app-content {
+    flex-basis: 0;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-column {
+    flex-basis: 0;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
   }
 }
 
