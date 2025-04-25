@@ -92,6 +92,11 @@ li a {
   color: white;
 }
 
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
 .nav ul {
   text-transform: uppercase;
   list-style: none;
@@ -436,14 +441,61 @@ footer {
 }
 
 /* Адаптация для мобильных устройств */
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
+    font-weight: bold;
   }
   h2 {
     font-size: 18px;
     line-height: 27px;
+    font-weight: bold;
+  }
+  .first-section {
+    width: 100%;
+    padding-top: 247px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav-list.d-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .input-group input {
+    width: 374px;
+  }
+  .nav {
+    margin-left: 0;
+  }
+  .nav-form {
+    margin-left: 0;
+    margin-top: 18px;
+  }
+  .header-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo-title {
+    padding-bottom: 17px;
+  }
+  .section-description {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-inputs {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-inputs.d-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .btn-green {
+    width: 374px;
   }
 }
 
