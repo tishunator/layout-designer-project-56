@@ -264,7 +264,7 @@ li a {
   box-sizing: border-box;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  min-height: 598px;
+  height: 615px;
   width: 368px;
   border-radius: 1rem;
 }
@@ -551,6 +551,9 @@ footer {
   }
   .news-body .padding-bottom-30 {
     padding-bottom: 16px;
+  }
+  .pricing-item {
+    height: 598px;
   }
 }
 
