@@ -178,7 +178,9 @@ margin-top: 31px;
   
 }
 .btn-sub{
-  width: 319px;
+  font-size: 16px;
+  height: 66px;
+  width: 318.66px;
   border-color: white; 
 }
 .btn-album {
@@ -223,6 +225,9 @@ gap: 50px;
 #page-news.container{
   padding-left: 20px;
   padding-right: 20px;
+}
+.padding-top-65px{
+  padding-top: 65px;
 }
 .pricing-item{
   box-sizing: border-box;
