@@ -482,8 +482,25 @@ padding-left: 0;
 }
 .footer-nav{
   
-    display: flex;
-    flex-direction: column;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.pricing-item h3{
+font-size: 16px;
+font-weight: bold;
+line-height: 24px;
+}
+.news-body h3{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  }
+  .mobile-none{
+    display: none;
+  }
+  .footer-bottom nav a {
+    margin:0px;
+    margin-top: 15px;
 }
 }
