@@ -51,8 +51,9 @@ h2 {
   text-transform: uppercase;
 }
 h3{
- 
   font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
 
 }
 .uppercase{
@@ -61,7 +62,7 @@ h3{
 .news-body h3{
   font-size: 30px;
   line-height: 45px;
-  font-weight: normal;
+  font-weight: 400;
   
 }
 .d-flex {
@@ -198,17 +199,14 @@ margin-top: 31px;
 }
 .bg-free{
   background-image: url(../images/subscribe_1.png);
-  background-position: center;
   background-size: cover;
 }
 .bg-standart {
   background-image: url(../images/subscribe_2.png);
-  background-position: center;
   background-size: cover;
 }
 .bg-premium {
   background-image: url(../images/subscribe_3.png);
-  background-position: center;
   background-size: cover;
 }
 .center {
@@ -226,6 +224,10 @@ gap: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }
+#page-app.container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .padding-top-65px{
   padding-top: 65px;
 }
@@ -240,7 +242,7 @@ gap: 50px;
 .pricing-value{
   font-size: 64px;
   line-height: 1em;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 p.pricing-value{
   margin: 0;
