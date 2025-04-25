@@ -220,19 +220,16 @@ li a {
 .bg-free {
   background-image: url(../images/subscribe_1.png);
   background-size: cover;
-  background-position: center;
 }
 
 .bg-standart {
   background-image: url(../images/subscribe_2.png);
   background-size: cover;
-  background-position: center;
 }
 
 .bg-premium {
   background-image: url(../images/subscribe_3.png);
   background-size: cover;
-  background-position: center;
 }
 
 .center {
@@ -539,6 +536,11 @@ footer {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
+    padding-top: 16px; /*тут добавила топ и убарал и добавила след класс*/
+    margin-top: 0;
+  }
+  .pricing-item .padding-bottom-200 {
+    padding-bottom: 203px;
   }
   .news-body h3 {
     font-size: 16px;
