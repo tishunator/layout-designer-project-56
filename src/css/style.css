@@ -299,7 +299,6 @@ p.pricing-value {
 .news-item {
   display: flex;
   gap: 50px;
-  padding-bottom: 65px;
 }
 
 .row-reverse {
@@ -381,7 +380,7 @@ footer {
 
 .footer-bottom {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 49px;
 }
 
 .footer li {
