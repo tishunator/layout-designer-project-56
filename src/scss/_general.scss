@@ -238,7 +238,7 @@ gap: 50px;
   box-sizing: border-box;
   padding-left:1.5rem ;
   padding-right: 1.5rem;
-  height: 615px;
+  min-height: 598px;
   width: 368px;
   border-radius: 1rem;
 }
@@ -481,7 +481,6 @@ padding-left: 0;
   flex-basis: 0;
 }
 .footer-nav{
-  
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -502,5 +501,8 @@ line-height: 24px;
   .footer-bottom nav a {
     margin:0px;
     margin-top: 15px;
+}
+.news-body .padding-bottom-30{
+padding-bottom: 16px;
 }
 }
