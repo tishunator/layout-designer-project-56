@@ -549,6 +549,9 @@ footer {
     padding-left: 0;
     padding-right: 0;
   }
+  .buttons.d-flex {
+    flex-direction: column;
+  }
 }
 /*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
 .background-img-artist {
@@ -586,6 +589,7 @@ footer {
 
 .buttons {
   gap: 24px;
+  padding-bottom: 25px;
 }
 
 svg {
@@ -595,7 +599,7 @@ svg {
 }
 
 .btn-mix::before {
-  content: url("../images/play-button.svg");
+  content: url("../images/Group.png");
   display: inline-block;
   margin-right: 18px;
   vertical-align: middle;
@@ -604,12 +608,23 @@ svg {
 }
 
 .btn-favorite::before {
-  content: url("../images/heart.svg");
+  content: url("../images/Vector.png");
   display: inline-block;
   margin-right: 18px;
   vertical-align: middle;
   height: 20px;
   width: 20px;
+}
+
+#page-popular-track.h3 {
+  font-size: 12.8px;
+  line-height: 19.2;
+  font-weight: bold;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
 }
 
 /*# sourceMappingURL=style.css.map */
