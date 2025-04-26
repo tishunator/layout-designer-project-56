@@ -241,8 +241,7 @@ gap: 50px;
   box-sizing: border-box;
   padding-left:1.5rem ;
   padding-right: 1.5rem;
-  height: 615px;
-  width: 368.8px;
+flex: 1;
   border-radius: 1rem;
 }
 .pricing-value{
@@ -266,6 +265,7 @@ p.pricing-value{
 .pricing-footer{
   margin: 0;
   padding-top: 64px;
+  padding-bottom: 64px;
   font-size: 12.8px;
 }
 .rub{
@@ -514,10 +514,7 @@ padding-top: 16px;/*тут добавила топ и убарал и добав
 .news-body .padding-bottom-30{
 padding-bottom: 16px;
 }
-.pricing-item{
-  height: 598px;
-  width: 374px;
-}
+
 .subscription-info{
   padding-left: 0;
   padding-right:0 ;
