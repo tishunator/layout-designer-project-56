@@ -510,3 +510,61 @@ padding-bottom: 16px;
   padding-right:0 ;
 }
 }
+/*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
+.background-img-artist{
+  background-image: url("../images/Morten%20Harket.png");
+  background-position: center;
+  background-size: cover;
+ 
+}
+.pTB-200{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.purple{
+  background-color: variables.$purple;
+}
+.red {
+  background-color: variables.$red;
+}
+.btn-artist{
+  display: flex;
+  height: 62px;
+  width: 200px;
+  border: none;
+  align-items: center;
+  color: white;
+
+}
+
+.amount-fans{
+  padding-bottom: 48px;
+  padding-top: 15px;
+}
+.buttons{
+  gap:24px;
+}
+svg {
+  fill: white;
+  
+  height: 20px;
+  width: 20px;
+}
+.btn-mix::before {
+  content: url('../images/play-button.svg');
+  display: inline-block;
+  margin-right: 18px;
+  vertical-align: middle;
+  
+  height: 20px;
+  width: 20px;
+}
+
+.btn-favorite::before {
+  content: url('../images/heart.svg');
+  display: inline-block;
+  margin-right: 18px;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
