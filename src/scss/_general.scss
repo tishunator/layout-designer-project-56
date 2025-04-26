@@ -140,10 +140,13 @@ margin-top: 31px;
   max-width: 570px;
   margin: 0 auto;
   margin-top: 17px;
+  padding-left: 20px;
+    padding-right: 20px;
 }
 
 .form-inputs{
   gap: 24px;
+  margin-bottom: 1.5rem;
   
 }
 .form-input{
@@ -155,13 +158,10 @@ margin-top: 31px;
   padding-left: 20px;
   background-color: transparent;
   color: white;
+  flex: 1;
 }
 .form-inputs input::placeholder {
   color: white; 
-}
-.form-input-width-margin{
-  min-width: 270px;
-  margin-bottom: 1.5rem;
 }
 
 .btn{
@@ -177,7 +177,7 @@ margin-top: 31px;
 .btn-green{
   font-size: 13.3px;
   background-color: variables.$green;
-  width: 570px;
+  width:100%;
   color: white;
 }
 .btn-sub{
@@ -420,9 +420,6 @@ padding-left: 0;
     gap: 0;
   }
   
-  .input-group input{
-    width: 374px;
-  }
   .nav {
     margin-left: 0;
   }
@@ -443,16 +440,10 @@ padding-left: 0;
   padding-left: 20px;
   padding-right: 20px;
  }
- .form-inputs{
-  padding-left: 20px;
-  padding-right: 20px;
- }
+
  .form-inputs.d-flex{
   flex-direction: column;
- gap: 0;
- }
- .btn-green{
-  width: 374px;
+ 
  }
  .cards.d-flex{
   flex-direction: column;
@@ -491,8 +482,8 @@ padding-left: 0;
 font-size: 16px;
 font-weight: bold;
 line-height: 24px;
-padding-top: 16px;/*тут добавила топ и убарал и добавила след класс*/
-    margin-top: 0;
+padding-top: 16px;
+margin-top: 0;
 
 }
 .pricing-item .padding-bottom-200{
