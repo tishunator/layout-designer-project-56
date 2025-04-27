@@ -516,6 +516,36 @@ padding-bottom: 16px;
   flex-direction: column;
   gap: 25px;
 }
+
+
+/* Устанавливаем порядок для каждого трека */
+/* Первый трек остается на месте */
+#page-popular-track .popular-track:nth-child(1) {
+  order: 0;
+}
+#page-popular-track .popular-track:nth-child(2) {
+  order: 3;
+}
+#page-popular-track .popular-track:nth-child(3) {
+  order: 5;
+}
+
+#page-popular-track .tracks-column .popular-track:nth-child(4) {
+  order: 1;
+}
+
+#page-popular-track .popular-track:nth-child(5) {
+  order: 3;
+}
+#page-popular-track .popular-track:nth-child(6) {
+  order: 5;
+}
+
+
+
+
+/* 4-й трек становится вторым */
+
 #page-popular-track .padding-left-20{
   padding-left: 0px;
 }
