@@ -516,6 +516,12 @@ padding-bottom: 16px;
   flex-direction: column;
   gap: 25px;
 }
+#page-popular-track .padding-left-20{
+  padding-left: 0px;
+}
+#page-popular-track .padding-right-35{
+  padding-right: 0px;
+}
 }
 /*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
 .background-img-artist{
@@ -621,4 +627,22 @@ line-height: 2;
 }
 .padding-right-35{
   padding-right: 35px;
+}
+.discography-item img{
+  height: 250px;
+  width: 250px;
+  padding-bottom: 18px;
+}
+h3.album-name{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  }
+.discography-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.year{
+  color: variables.$grey;
 }
