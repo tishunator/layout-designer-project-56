@@ -604,8 +604,6 @@ h3.album-name {
   .first-section {
     width: 100%;
     padding-top: 247px;
-
-
   }
 
   .container {
@@ -627,7 +625,6 @@ h3.album-name {
   .nav-form {
     margin-left: 0;
     margin-top: 18px;
-
   }
 
   .header-wrapper {
@@ -647,7 +644,6 @@ h3.album-name {
 
   .form-inputs.d-flex {
     flex-direction: column;
-
   }
 
   .cards.d-flex {
@@ -698,7 +694,6 @@ h3.album-name {
     line-height: 24px;
     padding-top: 16px;
     margin-top: 0;
-
   }
 
   .pricing-item .padding-bottom-200 {
@@ -734,15 +729,12 @@ h3.album-name {
   }
 
   #page-popular-track .track-columns {
-
     gap: 25px;
   }
 
   #page-popular-track .track-columns {
     grid-template-columns: 1fr;
   }
-
-
 
   #page-popular-track .padding-left-20 {
     padding-left: 0px;
@@ -781,5 +773,31 @@ h3.album-name {
     padding-top: 0px;
   }
 
+  #page-similar .padding-left-20 {
+    padding-left: 0px;
+  }
 
+  #page-similar .padding-right-35 {
+    padding-right: 0px;
+  }
+
+  #page-similar .discography-item img {
+    height: 137px;
+    width: 137px;
+    padding-bottom: 10px;
+  }
+
+  #page-similar .discography-item {
+    width: 137px;
+  }
+
+  #page-similar .discography-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+  }
+
+  #page-similar .discography-info {
+    box-sizing: border-box;
+    padding-top: 0px;
+  }
 }
