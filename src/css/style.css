@@ -562,6 +562,14 @@ footer {
   #page-popular-track .padding-right-35 {
     padding-right: 0px;
   }
+  #page-discography .discography-item img {
+    height: 137px;
+    width: 137px;
+  }
+  #page-discography .discography-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
 .background-img-artist {
@@ -691,7 +699,8 @@ h3.album-name {
 .discography-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  row-gap: 25px;
+  column-gap: 50px;
 }
 
 .year {
