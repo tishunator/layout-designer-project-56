@@ -522,13 +522,19 @@ padding-bottom: 16px;
 #page-popular-track .padding-right-35{
   padding-right: 0px;
 }
+#page-discography .padding-left-20{
+  padding-left: 0px;
+}
+#page-discography .padding-right-35{
+  padding-right: 0px;
+}
 #page-discography .discography-item img{
   height:137px;
   width:137px;
 }
 #page-discography .discography-items{
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0;
 }
 }
 /*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
@@ -644,11 +650,11 @@ line-height: 2;
 h3.album-name{
   font-size: 18px;
   font-weight: bold;
-  line-height: 2;
+  line-height: 1;
   }
 .discography-items{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 25px;
   column-gap: 50px;
 }
