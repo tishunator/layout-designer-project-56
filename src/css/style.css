@@ -202,6 +202,7 @@ li a {
 .btn-album {
   padding: 16px 30px;
   border-color: white;
+  margin-top: 48px;
 }
 
 .btn-download {
@@ -216,17 +217,17 @@ li a {
 }
 
 .bg-free {
-  background-image: url(../images/subscribe_1.png);
+  background-image: url("../images/subscribe_1.png");
   background-size: cover;
 }
 
 .bg-standart {
-  background-image: url(../images/subscribe_2.png);
+  background-image: url("../images/subscribe_2.png");
   background-size: cover;
 }
 
 .bg-premium {
-  background-image: url(../images/subscribe_3.png);
+  background-image: url("../images/subscribe_3.png");
   background-size: cover;
 }
 
@@ -304,7 +305,7 @@ p.pricing-value {
 }
 
 .margin-bottom-0 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .margin-bottom-100 {
@@ -334,10 +335,6 @@ p.pricing-value {
 
 .news-footer {
   padding-top: 24px;
-}
-
-.btn-album {
-  margin-top: 48px;
 }
 
 .logo-author {
@@ -404,6 +401,7 @@ footer {
 .footer-bottom {
   padding-top: 2rem;
   padding-bottom: 49px;
+  text-align: center;
 }
 
 .footer li {
@@ -412,10 +410,6 @@ footer {
 
 .footer ul {
   padding-left: 0;
-}
-
-.footer-bottom {
-  text-align: center;
 }
 
 .footer-column {
@@ -560,8 +554,7 @@ h3.album-name {
 .discography-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 25px;
-  column-gap: 50px;
+  gap: 25px 50pxж;
 }
 
 .year {
@@ -600,7 +593,7 @@ h3.album-name {
   text-align: center;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -652,15 +645,15 @@ h3.album-name {
   }
   .news-item {
     flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .mobile-app.d-flex {
     flex-direction: column-reverse;
     gap: 0;
   }
   .img-phone {
-    margin: -17px auto 0 auto;
+    margin: -17px auto 0;
   }
   .mobile-app-content p {
     margin-top: 15px;
@@ -699,7 +692,7 @@ h3.album-name {
     display: none;
   }
   .footer-bottom nav a {
-    margin: 0px;
+    margin: 0;
     margin-top: 15px;
   }
   .news-body .padding-bottom-30 {
@@ -714,21 +707,19 @@ h3.album-name {
   }
   #page-popular-track .track-columns {
     gap: 25px;
-  }
-  #page-popular-track .track-columns {
     grid-template-columns: 1fr;
   }
   #page-popular-track .padding-left-20 {
-    padding-left: 0px;
+    padding-left: 0;
   }
   #page-popular-track .padding-right-35 {
-    padding-right: 0px;
+    padding-right: 0;
   }
   #page-discography .padding-left-20 {
-    padding-left: 0px;
+    padding-left: 0;
   }
   #page-discography .padding-right-35 {
-    padding-right: 0px;
+    padding-right: 0;
   }
   #page-discography .discography-item img {
     height: 137px;
@@ -744,13 +735,13 @@ h3.album-name {
   }
   #page-discography .discography-info {
     box-sizing: border-box;
-    padding-top: 0px;
+    padding-top: 0;
   }
   #page-similar .padding-left-20 {
-    padding-left: 0px;
+    padding-left: 0;
   }
   #page-similar .padding-right-35 {
-    padding-right: 0px;
+    padding-right: 0;
   }
   #page-similar .discography-item img {
     height: 137px;
@@ -766,7 +757,7 @@ h3.album-name {
   }
   #page-similar .discography-info {
     box-sizing: border-box;
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 
