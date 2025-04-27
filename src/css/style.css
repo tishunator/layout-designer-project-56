@@ -552,6 +552,10 @@ footer {
   .buttons.d-flex {
     flex-direction: column;
   }
+  #page-popular-track .track-columns {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 /*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
 .background-img-artist {
@@ -662,7 +666,7 @@ h3.track-name {
   padding-left: 20px;
 }
 
-.padding-right-40 {
+.padding-right-35 {
   padding-right: 35px;
 }
 
