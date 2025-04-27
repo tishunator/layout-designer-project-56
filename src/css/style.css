@@ -553,30 +553,11 @@ footer {
     flex-direction: column;
   }
   #page-popular-track .track-columns {
-    flex-direction: column;
     gap: 25px;
   }
-  /* Устанавливаем порядок для каждого трека */
-  /* Первый трек остается на месте */
-  #page-popular-track .popular-track:nth-child(1) {
-    order: 0;
+  #page-popular-track .track-columns {
+    grid-template-columns: 1fr;
   }
-  #page-popular-track .popular-track:nth-child(2) {
-    order: 3;
-  }
-  #page-popular-track .popular-track:nth-child(3) {
-    order: 5;
-  }
-  #page-popular-track .tracks-column .popular-track:nth-child(4) {
-    order: 1;
-  }
-  #page-popular-track .popular-track:nth-child(5) {
-    order: 3;
-  }
-  #page-popular-track .popular-track:nth-child(6) {
-    order: 5;
-  }
-  /* 4-й трек становится вторым */
   #page-popular-track .padding-left-20 {
     padding-left: 0px;
   }
@@ -688,8 +669,9 @@ h3.track-name {
 }
 
 .track-columns {
-  display: flex;
-  gap: 50px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .tracks-column {
@@ -732,6 +714,30 @@ h3.album-name {
 
 .year {
   color: #E0E0E0;
+}
+
+.popular-track:nth-child(1) {
+  order: 1;
+}
+
+.popular-track:nth-child(2) {
+  order: 3;
+}
+
+.popular-track:nth-child(3) {
+  order: 5;
+}
+
+.popular-track:nth-child(4) {
+  order: 2;
+}
+
+.popular-track:nth-child(5) {
+  order: 4;
+}
+
+.popular-track:nth-child(6) {
+  order: 6;
 }
 
 /*# sourceMappingURL=style.css.map */
