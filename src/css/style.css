@@ -202,6 +202,7 @@ li a {
 .btn-album {
   padding: 16px 30px;
   border-color: white;
+  margin-top: 48px;
 }
 
 .btn-download {
@@ -336,10 +337,6 @@ p.pricing-value {
   padding-top: 24px;
 }
 
-.btn-album {
-  margin-top: 48px;
-}
-
 .logo-author {
   width: 19px;
   height: 19px;
@@ -404,6 +401,7 @@ footer {
 .footer-bottom {
   padding-top: 2rem;
   padding-bottom: 49px;
+  text-align: center;
 }
 
 .footer li {
@@ -412,10 +410,6 @@ footer {
 
 .footer ul {
   padding-left: 0;
-}
-
-.footer-bottom {
-  text-align: center;
 }
 
 .footer-column {
@@ -699,7 +693,7 @@ h3.album-name {
     display: none;
   }
   .footer-bottom nav a {
-    margin: 0px;
+    margin: 0;
     margin-top: 15px;
   }
   .news-body .padding-bottom-30 {
@@ -714,8 +708,6 @@ h3.album-name {
   }
   #page-popular-track .track-columns {
     gap: 25px;
-  }
-  #page-popular-track .track-columns {
     grid-template-columns: 1fr;
   }
   #page-popular-track .padding-left-20 {
