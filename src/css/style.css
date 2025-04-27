@@ -574,6 +574,9 @@ footer {
     height: 137px;
     width: 137px;
   }
+  #page-discography .discography-item {
+    width: 137px;
+  }
   #page-discography .discography-items {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
@@ -696,13 +699,12 @@ h3.track-name {
 .discography-item img {
   height: 250px;
   width: 250px;
-  padding-bottom: 18px;
 }
 
 h3.album-name {
   font-size: 18px;
   font-weight: bold;
-  line-height: 1;
+  line-height: 27px;
 }
 
 .discography-items {
