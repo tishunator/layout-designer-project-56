@@ -538,6 +538,7 @@ padding-bottom: 16px;
 #page-discography .discography-item img{
   height:137px;
   width:137px;
+  padding-bottom:10px ;
 }
 #page-discography .discography-item{
 
@@ -548,7 +549,10 @@ padding-bottom: 16px;
   grid-column-gap: 0;
 }
 
-
+#page-discography .discography-info{
+  box-sizing: border-box;
+  padding-top: 10px;
+}
 }
 /*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
 .background-img-artist{
@@ -692,6 +696,9 @@ h3.album-name{
 }
 .popular-track:nth-child(6) {
   order: 6;
+}
+.discography-info{
+padding-top: 10px;
 }
 
 
