@@ -572,12 +572,45 @@ svg {
   height: 20px;
   width: 20px;
 }
-#page-popular-track.h3{
+h3.track-name{
 font-size: 12.8px;
-line-height: 19.2;
 font-weight: bold;
+line-height: 2;
 }
 .popular-track img {
  width: 55px;
- height: 55px; 
+ height: 55px;
+ padding-right: 15px; 
+}
+.popular-track{
+  display: flex;
+  
+ 
+}
+.track-artist, .track-time{
+  font-size: 12.8px;
+
+  font-weight: 400;
+}
+.track-time{
+  color: variables.$grey;
+  align-self: center;
+}
+.track-columns{
+  display: flex;
+  gap: 50px;
+ 
+}
+.tracks-column{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 1;
+ 
+}
+.track-info{
+  flex: 1;
+}
+#page-popular-track h2{
+  padding-bottom: 15px;
 }
