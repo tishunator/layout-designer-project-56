@@ -18,8 +18,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #CACACA;
-  background-color: #08020D;
+  color: #cacaca;
+  background-color: #08020d;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -47,7 +47,6 @@ header {
   background-size: cover;
 }
 
-/* Заголовки для десктопа */
 h1 {
   font-size: 60px;
   line-height: 90px;
@@ -130,7 +129,7 @@ li a {
   height: 25px;
   border: 0;
   border-radius: 50px;
-  background-color: #3C3B3D;
+  background-color: #3c3b3d;
   color: #757575;
   padding-left: 10px;
 }
@@ -165,7 +164,7 @@ li a {
 .form-input {
   box-sizing: border-box;
   min-height: 50px;
-  border: solid 2px #CACACA;
+  border: solid 2px #cacaca;
   border-radius: 3px;
   padding: 0;
   padding-left: 20px;
@@ -188,7 +187,7 @@ li a {
 
 .btn-green {
   font-size: 13.3px;
-  background-color: #34C176;
+  background-color: #34c176;
   width: 100%;
   color: white;
 }
@@ -209,7 +208,7 @@ li a {
   border-radius: 32px;
   padding: 16px 40px;
   font-size: 12.8;
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .padding-top-100 {
@@ -330,7 +329,7 @@ p.pricing-value {
 }
 
 .news-author-name {
-  color: #F89202;
+  color: #f89202;
 }
 
 .news-footer {
@@ -439,7 +438,168 @@ footer {
   gap: 24px;
 }
 
-/* Адаптация для мобильных устройств */
+.background-img-artist {
+  background-image: url("../images/Morten%20Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pTB-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.purple {
+  background-color: #5328a1;
+}
+
+.red {
+  background-color: #95390c;
+}
+
+.btn-artist {
+  display: flex;
+  height: 62px;
+  width: 200px;
+  border: none;
+  align-items: center;
+  color: white;
+}
+
+.amount-fans {
+  padding-bottom: 48px;
+  padding-top: 15px;
+}
+
+.buttons {
+  gap: 24px;
+  padding-bottom: 25px;
+}
+
+.btn-mix::before {
+  content: url("../images/Group.png");
+  display: inline-block;
+  margin-right: 18px;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
+
+.btn-favorite::before {
+  content: url("../images/Vector.png");
+  display: inline-block;
+  margin-right: 18px;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
+
+h3.track-name {
+  font-size: 12.8px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
+  padding-right: 15px;
+}
+
+.popular-track {
+  display: flex;
+}
+
+.track-artist,
+.track-time {
+  font-size: 12.8px;
+  font-weight: 400;
+}
+
+.track-time {
+  color: #e0e0e0;
+  align-self: center;
+}
+
+.track-columns {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tracks-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 1;
+}
+
+.track-info {
+  flex: 1;
+}
+
+.padding-left-20 {
+  padding-left: 20px;
+}
+
+.padding-right-35 {
+  padding-right: 35px;
+}
+
+.discography-item img {
+  height: 250px;
+  width: 250px;
+}
+
+h3.album-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.discography-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 25px;
+  column-gap: 50px;
+}
+
+.year {
+  color: #e0e0e0;
+}
+
+.popular-track:nth-child(1) {
+  order: 1;
+}
+
+.popular-track:nth-child(2) {
+  order: 3;
+}
+
+.popular-track:nth-child(3) {
+  order: 5;
+}
+
+.popular-track:nth-child(4) {
+  order: 2;
+}
+
+.popular-track:nth-child(5) {
+  order: 4;
+}
+
+.popular-track:nth-child(6) {
+  order: 6;
+}
+
+.discography-info {
+  padding-top: 10px;
+}
+
+#page-similar .discography-info {
+  text-align: center;
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 30px;
@@ -586,169 +746,6 @@ footer {
     box-sizing: border-box;
     padding-top: 0px;
   }
-}
-/*                     ВТОРАЯ СЕКЦИЯ                                                                                     */
-.background-img-artist {
-  background-image: url("../images/Morten%20Harket.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.pTB-200 {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.purple {
-  background-color: #5328A1;
-}
-
-.red {
-  background-color: #95390C;
-}
-
-.btn-artist {
-  display: flex;
-  height: 62px;
-  width: 200px;
-  border: none;
-  align-items: center;
-  color: white;
-}
-
-.amount-fans {
-  padding-bottom: 48px;
-  padding-top: 15px;
-}
-
-.buttons {
-  gap: 24px;
-  padding-bottom: 25px;
-}
-
-svg {
-  fill: white;
-  height: 20px;
-  width: 20px;
-}
-
-.btn-mix::before {
-  content: url("../images/Group.png");
-  display: inline-block;
-  margin-right: 18px;
-  vertical-align: middle;
-  height: 20px;
-  width: 20px;
-}
-
-.btn-favorite::before {
-  content: url("../images/Vector.png");
-  display: inline-block;
-  margin-right: 18px;
-  vertical-align: middle;
-  height: 20px;
-  width: 20px;
-}
-
-h3.track-name {
-  font-size: 12.8px;
-  font-weight: bold;
-  line-height: 2;
-}
-
-.popular-track img {
-  width: 55px;
-  height: 55px;
-  padding-right: 15px;
-}
-
-.popular-track {
-  display: flex;
-}
-
-.track-artist, .track-time {
-  font-size: 12.8px;
-  font-weight: 400;
-}
-
-.track-time {
-  color: #E0E0E0;
-  align-self: center;
-}
-
-.track-columns {
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.tracks-column {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  flex: 1;
-}
-
-.track-info {
-  flex: 1;
-}
-
-.padding-left-20 {
-  padding-left: 20px;
-}
-
-.padding-right-35 {
-  padding-right: 35px;
-}
-
-.discography-item img {
-  height: 250px;
-  width: 250px;
-}
-
-h3.album-name {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 27px;
-}
-
-.discography-items {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  row-gap: 25px;
-  column-gap: 50px;
-}
-
-.year {
-  color: #E0E0E0;
-}
-
-.popular-track:nth-child(1) {
-  order: 1;
-}
-
-.popular-track:nth-child(2) {
-  order: 3;
-}
-
-.popular-track:nth-child(3) {
-  order: 5;
-}
-
-.popular-track:nth-child(4) {
-  order: 2;
-}
-
-.popular-track:nth-child(5) {
-  order: 4;
-}
-
-.popular-track:nth-child(6) {
-  order: 6;
-}
-
-.discography-info {
-  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
