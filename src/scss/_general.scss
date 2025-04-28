@@ -18,19 +18,13 @@ header {
 }
 
 .header-wrapper {
+  display: flex;
   align-items: center;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 100px;
 }
 
 .background-img {
@@ -234,6 +228,13 @@ li a {
   gap: 50px;
 }
 
+#page-pricing.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
 .padding-top-65px {
   padding-top: 65px;
 }
@@ -377,8 +378,6 @@ footer {
   padding-bottom: 3em;
   display: flex;
   gap: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .footer-bottom {
@@ -387,8 +386,6 @@ footer {
   padding-top: 2rem;
   padding-bottom: 49px;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .footer li {
@@ -607,7 +604,6 @@ h3.album-name {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
-    padding-top: 100px;
   }
 
   .nav-list.d-flex {
