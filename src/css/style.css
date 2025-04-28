@@ -639,12 +639,6 @@ h3.album-name {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .form-inputs.d-flex {
-    flex-direction: column;
-  }
-  .cards.d-flex {
-    flex-direction: column;
-  }
   .news-item {
     flex-direction: column;
     padding-left: 0;
@@ -703,9 +697,6 @@ h3.album-name {
   .subscription-info {
     padding-left: 0;
     padding-right: 0;
-  }
-  .buttons.d-flex {
-    flex-direction: column;
   }
   #page-popular-track .track-columns {
     grid-template-columns: 1fr;
