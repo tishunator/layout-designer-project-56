@@ -613,7 +613,8 @@ h3.album-name {
     padding-right: 20px;
     box-sizing: border-box;
   }
-  .nav-list {
+  .nav-list.d-flex {
+    flex-direction: column;
     gap: 0;
   }
   .nav {
@@ -634,6 +635,12 @@ h3.album-name {
     margin-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .form-inputs.d-flex {
+    flex-direction: column;
+  }
+  .cards.d-flex {
+    flex-direction: column;
   }
   .news-item {
     flex-direction: column;
@@ -693,6 +700,9 @@ h3.album-name {
   .subscription-info {
     padding-left: 0;
     padding-right: 0;
+  }
+  .buttons.d-flex {
+    flex-direction: column;
   }
   #page-popular-track .track-columns {
     gap: 25px;
