@@ -701,49 +701,37 @@ h3.album-name {
     gap: 25px;
     grid-template-columns: 1fr;
   }
-  #page-popular-track .padding-left-20 {
+  .padding-left-20 {
     padding-left: 0;
   }
-  #page-popular-track .padding-right-35 {
+  .padding-right-35 {
     padding-right: 0;
   }
-  #page-discography .padding-left-20 {
-    padding-left: 0;
-  }
-  #page-discography .padding-right-35 {
-    padding-right: 0;
-  }
-  #page-discography .discography-item img {
+  .discography-item img {
     height: 137px;
     width: 137px;
     padding-bottom: 10px;
   }
-  #page-discography .discography-item {
+  .discography-item {
     width: 137px;
   }
-  #page-discography .discography-items {
+  .discography-items {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
   }
-  #page-discography .discography-info {
+  .discography-info {
     box-sizing: border-box;
     padding-top: 0;
   }
-  #page-similar .padding-left-20 {
-    padding-left: 0;
-  }
-  #page-similar .padding-right-35 {
-    padding-right: 0;
-  }
-  #page-similar .discography-item img {
+  .discography-item img {
     height: 137px;
     width: 137px;
     padding-bottom: 10px;
   }
-  #page-similar .discography-item {
+  .discography-item {
     width: 137px;
   }
-  #page-similar .discography-items {
+  .discography-items {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
   }
