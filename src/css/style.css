@@ -239,17 +239,7 @@ li a {
   gap: 50px;
 }
 
-#page-pricing.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#page-news.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#page-app.container {
+#page-pricing.container, #page-news.container, #page-app.container {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -719,11 +709,7 @@ h3.album-name {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
   }
-  #page-discography .discography-info {
-    box-sizing: border-box;
-    padding-top: 0;
-  }
-  #page-similar .discography-info {
+  .discography-info {
     box-sizing: border-box;
     padding-top: 0;
   }
