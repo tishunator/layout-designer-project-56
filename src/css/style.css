@@ -244,6 +244,16 @@ li a {
   padding-right: 20px;
 }
 
+#page-app.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#news-content.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .padding-top-65px {
   padding-top: 65px;
 }
@@ -380,8 +390,6 @@ footer {
 }
 
 .footer-top {
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 3em;
   padding-bottom: 3em;
   display: flex;
@@ -389,8 +397,6 @@ footer {
 }
 
 .footer-bottom {
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 49px;
   text-align: center;
