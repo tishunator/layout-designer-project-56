@@ -31,8 +31,11 @@ header {
 }
 
 .header-wrapper {
-  display: flex;
   align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
@@ -40,6 +43,7 @@ header {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 100px;
 }
 
 .background-img {
@@ -383,6 +387,8 @@ footer {
   padding-bottom: 3em;
   display: flex;
   gap: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer-bottom {
@@ -391,6 +397,8 @@ footer {
   padding-top: 2rem;
   padding-bottom: 49px;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer li {
