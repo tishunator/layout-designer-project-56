@@ -239,17 +239,7 @@ li a {
   gap: 50px;
 }
 
-#page-pricing.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#page-news.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#page-app.container {
+#page-pricing.container, #page-news.container, #page-app.container {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -553,8 +543,6 @@ h3.album-name {
 .discography-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 25px;
-  column-gap: 50px;
   gap: 25px 50px;
 }
 
@@ -706,20 +694,13 @@ h3.album-name {
   .buttons.d-flex {
     flex-direction: column;
   }
-  #page-popular-track .track-columns {
-    gap: 25px;
+  .track-columns {
     grid-template-columns: 1fr;
   }
-  #page-popular-track .padding-left-20 {
+  .padding-left-20 {
     padding-left: 0;
   }
-  #page-popular-track .padding-right-35 {
-    padding-right: 0;
-  }
-  #page-discography .padding-left-20 {
-    padding-left: 0;
-  }
-  #page-discography .padding-right-35 {
+  .padding-right-35 {
     padding-right: 0;
   }
   #page-discography .discography-item img {
@@ -730,7 +711,7 @@ h3.album-name {
   #page-discography .discography-item {
     width: 137px;
   }
-  #page-discography .discography-items {
+  .discography-items {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
   }
@@ -738,23 +719,8 @@ h3.album-name {
     box-sizing: border-box;
     padding-top: 0;
   }
-  #page-similar .padding-left-20 {
-    padding-left: 0;
-  }
-  #page-similar .padding-right-35 {
-    padding-right: 0;
-  }
-  #page-similar .discography-item img {
-    height: 137px;
-    width: 137px;
-    padding-bottom: 10px;
-  }
   #page-similar .discography-item {
     width: 137px;
-  }
-  #page-similar .discography-items {
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0;
   }
   #page-similar .discography-info {
     box-sizing: border-box;
