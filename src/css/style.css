@@ -613,10 +613,8 @@ h3.album-name {
     padding-right: 20px;
     box-sizing: border-box;
   }
-  .d-flex {
+  .nav-list.d-flex {
     flex-direction: column;
-  }
-  .nav-list {
     gap: 0;
   }
   .nav {
@@ -637,6 +635,12 @@ h3.album-name {
     margin-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .form-inputs.d-flex {
+    flex-direction: column;
+  }
+  .cards.d-flex {
+    flex-direction: column;
   }
   .news-item {
     flex-direction: column;
@@ -697,30 +701,65 @@ h3.album-name {
     padding-left: 0;
     padding-right: 0;
   }
+  .buttons.d-flex {
+    flex-direction: column;
+  }
   #page-popular-track .track-columns {
+    gap: 25px;
     grid-template-columns: 1fr;
   }
-  .padding-left-20 {
+  #page-popular-track .padding-left-20 {
     padding-left: 0;
   }
-  .padding-right-35 {
+  #page-popular-track .padding-right-35 {
     padding-right: 0;
   }
-  .discography-item img {
+  #page-discography .padding-left-20 {
+    padding-left: 0;
+  }
+  #page-discography .padding-right-35 {
+    padding-right: 0;
+  }
+  #page-discography .discography-item img {
     height: 137px;
     width: 137px;
     padding-bottom: 10px;
   }
-  .discography-item {
+  #page-discography .discography-item {
     width: 137px;
   }
-  .discography-items {
+  #page-discography .discography-items {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
   }
-  .discography-info {
+  #page-discography .discography-info {
     box-sizing: border-box;
     padding-top: 0;
+  }
+  #page-similar .padding-left-20 {
+    padding-left: 0;
+  }
+  #page-similar .padding-right-35 {
+    padding-right: 0;
+  }
+  #page-similar .discography-item img {
+    height: 137px;
+    width: 137px;
+    padding-bottom: 10px;
+  }
+  #page-similar .discography-item {
+    width: 137px;
+  }
+  #page-similar .discography-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+  }
+  #page-similar .discography-info {
+    box-sizing: border-box;
+    padding-top: 0;
+  }
+  .d-flex {
+    flex-direction: column;
   }
 }
 
