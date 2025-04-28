@@ -239,7 +239,17 @@ li a {
   gap: 50px;
 }
 
-#page-pricing.container, #page-news.container, #page-app.container {
+#page-pricing.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#page-news.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#page-app.container {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -694,7 +704,8 @@ h3.album-name {
   .buttons.d-flex {
     flex-direction: column;
   }
-  .track-columns {
+  #page-popular-track .track-columns {
+    gap: 25px;
     grid-template-columns: 1fr;
   }
   .padding-left-20 {
@@ -711,7 +722,7 @@ h3.album-name {
   #page-discography .discography-item {
     width: 137px;
   }
-  .discography-items {
+  #page-discography .discography-items {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0;
   }
@@ -719,8 +730,17 @@ h3.album-name {
     box-sizing: border-box;
     padding-top: 0;
   }
+  #page-similar .discography-item img {
+    height: 137px;
+    width: 137px;
+    padding-bottom: 10px;
+  }
   #page-similar .discography-item {
     width: 137px;
+  }
+  #page-similar .discography-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
   }
   #page-similar .discography-info {
     box-sizing: border-box;
