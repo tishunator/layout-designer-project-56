@@ -38,6 +38,8 @@ header {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .background-img {
@@ -239,21 +241,6 @@ li a {
   gap: 50px;
 }
 
-#page-pricing.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#page-news.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#page-app.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .padding-top-65px {
   padding-top: 65px;
 }
@@ -320,7 +307,6 @@ p.pricing-value {
 }
 
 .news-item {
-  display: flex;
   gap: 50px;
 }
 
@@ -391,6 +377,8 @@ footer {
 }
 
 .footer-top {
+  width: 1200px;
+  margin: 0 auto;
   padding-top: 3em;
   padding-bottom: 3em;
   display: flex;
@@ -398,6 +386,8 @@ footer {
 }
 
 .footer-bottom {
+  width: 1200px;
+  margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 49px;
   text-align: center;
@@ -615,6 +605,7 @@ h3.album-name {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
+    padding-top: 100px;
   }
   .nav-list.d-flex {
     gap: 0;
@@ -657,15 +648,12 @@ h3.album-name {
     flex-basis: 0;
   }
   .footer-top {
-    flex-direction: column;
     gap: 0;
   }
   .footer-column {
     flex-basis: 0;
   }
   .footer-nav {
-    display: flex;
-    flex-direction: column;
     gap: 0;
   }
   .pricing-item h3 {
@@ -722,18 +710,6 @@ h3.album-name {
   .discography-info {
     box-sizing: border-box;
     padding-top: 0;
-  }
-  .discography-item img {
-    height: 137px;
-    width: 137px;
-    padding-bottom: 10px;
-  }
-  .discography-item {
-    width: 137px;
-  }
-  .discography-items {
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0;
   }
   #page-similar .discography-info {
     box-sizing: border-box;
