@@ -1,0 +1,49 @@
+@use "variables";
+@use "mixins";
+.news-body h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+.news-item {
+  display: flex;
+  gap: 50px;
+}
+
+.news-author-name {
+  color: variables.$orange;
+}
+
+.news-footer {
+  padding-top: 24px;
+}
+
+.news-author {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+}
+
+.news-item p {
+  margin: 0;
+}
+
+@include mixins.md {
+  .news-item {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .news-body h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+
+  .news-body .padding-bottom-30 {
+    padding-bottom: 16px;
+  }
+
+}

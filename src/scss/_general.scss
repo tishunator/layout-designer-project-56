@@ -1,5 +1,5 @@
 @use "variables";
-
+@use "mixins";
 body {
   font-family: variables.$font-main;
   font-weight: variables.$font-main-regular;
@@ -9,17 +9,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-}
-
-header {
-  width: 100%;
-  position: absolute;
-  top: 25px;
-}
-
-.header-wrapper {
-  display: flex;
-  align-items: center;
 }
 
 .container {
@@ -57,19 +46,8 @@ h3 {
   text-transform: uppercase;
 }
 
-.news-body h3 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: 400;
-}
-
 .d-flex {
   display: flex;
-}
-
-.title-name {
-  font-size: 11px;
-  text-transform: uppercase;
 }
 
 li a {
@@ -82,29 +60,10 @@ li a {
   align-items: center;
 }
 
-.nav ul {
-  text-transform: uppercase;
-  list-style: none;
-  gap: 24px;
-  color: white;
-  padding: 0;
-  margin: 0;
-}
-
-.nav {
-  align-items: center;
-  font-size: 11px;
-  margin-left: 90px;
-}
-
 .logo {
   width: 24px;
   height: 24px;
   margin-right: 16px;
-}
-
-.nav-form {
-  margin-left: auto;
 }
 
 .input-group input {
@@ -205,7 +164,6 @@ li a {
 .bg-free {
   background-image: url("../images/subscribe_1.png");
   background-size: cover;
-
 }
 
 .bg-standart {
@@ -228,35 +186,15 @@ li a {
   gap: 50px;
 }
 
-#page-pricing.container, #page-news.container, #page-app.container {
+#page-pricing.container,
+#page-news.container,
+#page-app.container {
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .padding-top-65px {
   padding-top: 65px;
-}
-
-.pricing-item {
-  box-sizing: border-box;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  flex: 1;
-  border-radius: 1rem;
-}
-
-.pricing-value {
-  font-size: 64px;
-  line-height: 1em;
-  padding-bottom: 25px;
-}
-
-p.pricing-value {
-  margin: 0;
-}
-
-.subscription-info {
-  padding-top: 40px;
 }
 
 .btn a {
@@ -266,13 +204,6 @@ p.pricing-value {
 
 .padding-bottom-200 {
   padding-bottom: 200px;
-}
-
-.pricing-footer {
-  margin: 0;
-  padding-top: 64px;
-  padding-bottom: 64px;
-  font-size: 12.8px;
 }
 
 .rub {
@@ -298,22 +229,8 @@ p.pricing-value {
   padding-bottom: 30px;
 }
 
-.news-item {
-  display: flex;
-  gap: 50px;
-}
-
 .row-reverse {
   flex-direction: row-reverse;
-}
-
-.news-author-name {
-  color: variables.$orange;
-}
-
-.news-footer {
-  padding-top: 24px;
-
 }
 
 .logo-author {
@@ -321,94 +238,8 @@ p.pricing-value {
   height: 19px;
 }
 
-.news-author {
-  display: flex;
-  gap: 16px;
-  font-size: 12px;
-}
-
 .padding-bottom-48 {
   padding-bottom: 48px;
-}
-
-.news-item p {
-  margin: 0;
-}
-
-.mobile-app {
-  gap: 144px;
-  padding-top: 64px;
-}
-
-.mobile-app-content p {
-  margin-top: 0;
-}
-
-.mobile-app-content {
-  flex-basis: 600px;
-}
-
-.img-phone {
-  height: 278px;
-  width: 333px;
-  margin-top: -20px;
-}
-
-footer h2 {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
-}
-
-.footer a {
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-}
-
-footer {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-}
-
-.footer-top {
-  padding-top: 3em;
-  padding-bottom: 3em;
-  display: flex;
-  gap: 40px;
-}
-
-.footer-bottom {
-  padding-top: 2rem;
-  padding-bottom: 49px;
-  text-align: center;
-}
-
-.footer li {
-  list-style: none;
-}
-
-.footer ul {
-  padding-left: 0;
-}
-
-.footer-column {
-  flex-basis: 270px;
-}
-
-.footer-bottom nav a {
-  color: white;
-  margin: 5px;
-  text-decoration: none;
-}
-
-.footer-nav {
-  text-align: left;
-}
-
-.footer-socials {
-  margin-left: 3px;
-  display: flex;
-  gap: 24px;
 }
 
 .background-img-artist {
@@ -420,14 +251,6 @@ footer {
 .pTB-200 {
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.purple {
-  background-color: variables.$purple;
-}
-
-.red {
-  background-color: variables.$red;
 }
 
 .btn-artist {
@@ -467,50 +290,6 @@ footer {
   width: 20px;
 }
 
-h3.track-name {
-  font-size: 12.8px;
-  font-weight: bold;
-  line-height: 2;
-}
-
-.popular-track img {
-  width: 55px;
-  height: 55px;
-  padding-right: 15px;
-}
-
-.popular-track {
-  display: flex;
-}
-
-.track-artist,
-.track-time {
-  font-size: 12.8px;
-  font-weight: 400;
-}
-
-.track-time {
-  color: variables.$grey;
-  align-self: center;
-}
-
-.track-columns {
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.tracks-column {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  flex: 1;
-}
-
-.track-info {
-  flex: 1;
-}
-
 .padding-left-20 {
   padding-left: 20px;
 }
@@ -519,60 +298,15 @@ h3.track-name {
   padding-right: 35px;
 }
 
-.discography-item img {
-  height: 250px;
-  width: 250px;
+.purple {
+  background-color: variables.$purple;
 }
 
-h3.album-name {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 27px;
+.red {
+  background-color: variables.$red;
 }
 
-.discography-items {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px 50px;
-}
-
-.year {
-  color: variables.$grey;
-}
-
-.popular-track:nth-child(1) {
-  order: 1;
-}
-
-.popular-track:nth-child(2) {
-  order: 3;
-}
-
-.popular-track:nth-child(3) {
-  order: 5;
-}
-
-.popular-track:nth-child(4) {
-  order: 2;
-}
-
-.popular-track:nth-child(5) {
-  order: 4;
-}
-
-.popular-track:nth-child(6) {
-  order: 6;
-}
-
-.discography-info {
-  padding-top: 10px;
-}
-
-#page-similar .discography-info {
-  text-align: center;
-}
-
-@media (width <=415px) {
+@include mixins.md {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -601,25 +335,6 @@ h3.album-name {
     box-sizing: border-box;
   }
 
-  .nav-list.d-flex {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .nav {
-    margin-left: 0;
-  }
-
-  .nav-form {
-    margin-left: 0;
-    margin-top: 18px;
-  }
-
-  .header-wrapper {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .logo-title {
     padding-bottom: 17px;
   }
@@ -630,110 +345,11 @@ h3.album-name {
     padding-right: 20px;
   }
 
-
-  .news-item {
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .mobile-app.d-flex {
-    flex-direction: column-reverse;
-    gap: 0;
-  }
-
-  .img-phone {
-    margin: -17px auto 0;
-  }
-
-  .mobile-app-content p {
-    margin-top: 15px;
-  }
-
-  .mobile-app-content {
-    flex-basis: 0;
-  }
-
-  .footer-top {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .footer-column {
-    flex-basis: 0;
-  }
-
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .pricing-item h3 {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    padding-top: 16px;
-    margin-top: 0;
-  }
-
-  .pricing-item .padding-bottom-200 {
-    padding-bottom: 203px;
-  }
-
-  .news-body h3 {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-  }
-
-  .mobile-none {
-    display: none;
-  }
-
-  .footer-bottom nav a {
-    margin: 0;
-    margin-top: 15px;
-  }
-
-  .news-body .padding-bottom-30 {
-    padding-bottom: 16px;
-  }
-
-  .subscription-info {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  #page-popular-track .track-columns {
-    grid-template-columns: 1fr;
-  }
-
   .padding-left-20 {
     padding-left: 0;
   }
 
   .padding-right-35 {
     padding-right: 0;
-  }
-
-  .discography-item img {
-    height: 137px;
-    width: 137px;
-    padding-bottom: 10px;
-  }
-
-  .discography-item {
-    width: 137px;
-  }
-
-  .discography-items {
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0;
-  }
-
-  .discography-info {
-    box-sizing: border-box;
-    padding-top: 0;
   }
 }

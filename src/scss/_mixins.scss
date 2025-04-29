@@ -1,0 +1,6 @@
+@use "variables";
+@mixin md {
+  @media (max-width: variables.$mobile) {
+    @content;
+  }
+}

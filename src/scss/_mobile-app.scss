@@ -1,0 +1,43 @@
+@use "variables";
+@use "mixins";
+.mobile-app {
+  gap: 144px;
+  padding-top: 64px;
+}
+
+.mobile-app-content p {
+  margin-top: 0;
+}
+
+.mobile-app-content {
+  flex-basis: 600px;
+}
+
+.img-phone {
+  height: 278px;
+  width: 333px;
+  margin-top: -20px;
+}
+
+@include mixins.md {
+  .mobile-app.d-flex {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .img-phone {
+    margin: -17px auto 0;
+  }
+
+  .mobile-app-content p {
+    margin-top: 15px;
+  }
+
+  .mobile-app-content {
+    flex-basis: 0;
+  }
+
+  .mobile-none {
+    display: none;
+  }
+}

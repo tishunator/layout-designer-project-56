@@ -1,0 +1,51 @@
+@use "variables";
+@use "mixins";
+h3.track-name {
+  font-size: 12.8px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
+  padding-right: 15px;
+}
+
+.popular-track {
+  display: flex;
+}
+
+.track-artist,
+.track-time {
+  font-size: 12.8px;
+  font-weight: 400;
+}
+
+.track-time {
+  color: variables.$grey;
+  align-self: center;
+}
+
+.track-columns {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tracks-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 1;
+}
+
+.track-info {
+  flex: 1;
+}
+
+@include mixins.md {
+  #page-popular-track .track-columns {
+    grid-template-columns: 1fr;
+  }
+}

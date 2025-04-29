@@ -1,2 +1,11 @@
 @use "variables";
-@use "general"
+@use "general";
+@use "mixins";
+@use "header";
+@use "nav";
+@use "disography";
+@use "footer";
+@use "mobile-app";
+@use "news";
+@use "popular-track";
+@use "price";

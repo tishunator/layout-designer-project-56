@@ -1,0 +1,52 @@
+@use "variables";
+@use "mixins";
+.discography-item img {
+  height: 250px;
+  width: 250px;
+}
+
+h3.album-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.discography-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px 50px;
+}
+
+.year {
+  color: variables.$grey;
+}
+
+.discography-info {
+  padding-top: 10px;
+}
+
+#page-similar .discography-info {
+  text-align: center;
+}
+
+@include mixins.md {
+  .discography-item img {
+    height: 137px;
+    width: 137px;
+    padding-bottom: 10px;
+  }
+
+  .discography-item {
+    width: 137px;
+  }
+
+  .discography-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+  }
+
+  .discography-info {
+    box-sizing: border-box;
+    padding-top: 0;
+  }
+}
