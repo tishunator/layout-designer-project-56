@@ -7,9 +7,8 @@
 }
 
 h3.album-name {
-  font-size: 18px;
   font-weight: bold;
-  line-height: 27px;
+  @include mixins.font-rem(18, variables.$base)
 }
 
 .discography-items {

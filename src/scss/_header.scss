@@ -13,8 +13,8 @@ header {
 }
 
 .title-name {
-  font-size: 11px;
   text-transform: uppercase;
+  @include mixins.font-rem(11, variables.$base);
 }
 
 @include mixins.md {

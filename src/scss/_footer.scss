@@ -2,15 +2,13 @@
 @use "mixins";
 
 footer h2 {
-  font-size: 18px;
-  line-height: 27px;
   font-weight: bold;
+  @include mixins.font-rem(18, variables.$base)
 }
 
 .footer a {
-  font-size: 16px;
-  line-height: 24px;
   text-decoration: none;
+  @include mixins.font-rem(16, variables.$base);
 }
 
 footer {

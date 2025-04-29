@@ -12,8 +12,8 @@
 
 .nav {
   align-items: center;
-  font-size: 11px;
   margin-left: 90px;
+  @include mixins.font-rem(11, variables.$base);
 }
 
 .nav-form {

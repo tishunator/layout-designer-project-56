@@ -3,7 +3,6 @@
 
 .news-body h3 {
   font-size: 30px;
-  line-height: 45px;
   font-weight: 400;
 }
 
@@ -23,11 +22,16 @@
 .news-author {
   display: flex;
   gap: 16px;
-  font-size: 12px;
+  @include mixins.font-rem(12, variables.$base);
 }
 
 .news-item p {
   margin: 0;
+}
+
+.logo-author {
+  width: 19px;
+  height: 19px;
 }
 
 @include mixins.md {
@@ -38,9 +42,8 @@
   }
 
   .news-body h3 {
-    font-size: 16px;
     font-weight: bold;
-    line-height: 24px;
+    @include mixins.font-rem(16, variables.$base);
   }
 
   .news-body .padding-bottom-30 {

@@ -5,3 +5,7 @@
     @content;
   }
 }
+
+@mixin font-rem($size-px, $base) {
+  font-size: ($size-px / variables.$base) * 1rem;
+}
