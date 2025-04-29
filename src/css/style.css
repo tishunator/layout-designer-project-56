@@ -440,6 +440,30 @@ h3.album-name {
   text-align: center;
 }
 
+.popular-track:nth-child(1) {
+  order: 1;
+}
+
+.popular-track:nth-child(2) {
+  order: 3;
+}
+
+.popular-track:nth-child(3) {
+  order: 5;
+}
+
+.popular-track:nth-child(4) {
+  order: 2;
+}
+
+.popular-track:nth-child(5) {
+  order: 4;
+}
+
+.popular-track:nth-child(6) {
+  order: 6;
+}
+
 @media (max-width: 415px) {
   .discography-item img {
     height: 137px;
