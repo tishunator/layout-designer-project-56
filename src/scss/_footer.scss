@@ -3,11 +3,13 @@
 
 footer h2 {
   font-weight: bold;
+
   @include mixins.font-rem(18, variables.$base)
 }
 
 .footer a {
   text-decoration: none;
+  
   @include mixins.font-rem(16, variables.$base);
 }
 

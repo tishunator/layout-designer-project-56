@@ -9,6 +9,7 @@ body {
   background-color: variables.$black;
   margin: 0;
   padding: 0;
+
   @include mixins.font-rem(16, variables.$base);
 }
 
@@ -26,17 +27,20 @@ body {
 h1 {
   font-weight: bold;
   text-transform: uppercase;
+
   @include mixins.font-rem(60, variables.$base);
 }
 
 h2 {
   font-weight: bold;
   text-transform: uppercase;
+
   @include mixins.font-rem(38, variables.$base);
 }
 
 h3 {
   font-weight: 400;
+
   @include mixins.font-rem(24, variables.$base)
 }
 
@@ -75,6 +79,7 @@ li a {
   background-color: variables.$dark;
   color: #757575;
   padding-left: 10px;
+
   @include mixins.font-rem(13.3, variables.$base)
 }
 
@@ -133,6 +138,7 @@ li a {
   background-color: variables.$green;
   width: 100%;
   color: white;
+
   @include mixins.font-rem(13.3, variables.$base)
 }
 
@@ -140,6 +146,7 @@ li a {
   height: 66px;
   width: 100%;
   border: solid white;
+
   @include mixins.font-rem(16, variables.$base)
 }
 
@@ -154,6 +161,7 @@ li a {
   padding: 16px 40px;
   background-color: variables.$red;
   border: solid;
+
   @include mixins.font-rem(12.8, variables.$base)
 }
 
@@ -210,6 +218,7 @@ li a {
   display: inline-block;
   text-transform: uppercase;
   transform: translateY(-25%);
+
   @include mixins.font-rem(32, variables.$base);
 }
 
@@ -304,11 +313,13 @@ li a {
 @include mixins.md {
   h1 {
     font-weight: bold;
+
     @include mixins.font-rem(30, variables.$base);
   }
 
   h2 {
     font-weight: bold;
+    
     @include mixins.font-rem(18, variables.$base);
   }
 

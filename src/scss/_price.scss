@@ -12,6 +12,7 @@
 .pricing-value {
   line-height: 1em;
   padding-bottom: 25px;
+
   @include mixins.font-rem(64, variables.$base);
 }
 
@@ -23,6 +24,7 @@ p.pricing-value {
   margin: 0;
   padding-top: 64px;
   padding-bottom: 64px;
+
   @include mixins.font-rem(12.8, variables.$base);
 }
 
@@ -35,6 +37,7 @@ p.pricing-value {
     font-weight: bold;
     padding-top: 16px;
     margin-top: 0;
+    
     @include mixins.font-rem(16, variables.$base);
   }
 

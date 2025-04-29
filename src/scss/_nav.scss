@@ -13,6 +13,7 @@
 .nav {
   align-items: center;
   margin-left: 90px;
+  
   @include mixins.font-rem(11, variables.$base);
 }
 

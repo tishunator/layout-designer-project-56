@@ -8,6 +8,7 @@
 
 h3.album-name {
   font-weight: bold;
+  
   @include mixins.font-rem(18, variables.$base)
 }
 

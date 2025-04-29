@@ -4,6 +4,7 @@
 h3.track-name {
   font-weight: bold;
   line-height: 2;
+  
   @include mixins.font-rem(12.8, variables.$base);
 }
 
@@ -20,6 +21,7 @@ h3.track-name {
 .track-artist,
 .track-time {
   font-weight: 400;
+
   @include mixins.font-rem(12.8, variables.$base);
 }
 
